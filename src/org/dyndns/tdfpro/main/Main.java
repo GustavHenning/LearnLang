@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		out = new Output(System.out);
 		in = new CommandParser(System.in, out);
-		in.sendLine("init file B2.txt de sv");
+		in.sendLine("init file Som.txt de sv");
 		in.listen();
 	}
 

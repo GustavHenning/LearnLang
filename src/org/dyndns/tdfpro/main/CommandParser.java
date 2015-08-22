@@ -4,9 +4,9 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 import org.dyndns.tdfpro.commands.Command;
+import org.dyndns.tdfpro.commands.LangFile;
 import org.dyndns.tdfpro.commands.Pass;
 import org.dyndns.tdfpro.commands.Tip;
-import org.dyndns.tdfpro.commands.LangFile;
 import org.dyndns.tdfpro.commands.WordCompleted;
 
 public class CommandParser {
@@ -35,6 +35,7 @@ public class CommandParser {
 		while(sc.hasNextLine()){
 			parse(sc.nextLine());
 		}
+		sc.close();
 	}
 
 	private void parse(String nextLine) {

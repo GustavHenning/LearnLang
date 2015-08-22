@@ -39,14 +39,15 @@ public class WordPractice {
 				if (lineWords.length == langs.length) {
 					String[] translation = new String[lineWords.length - 1];
 					for (int i = 1; i < lineWords.length; i++) {
-						translation[i - 1] = lineWords[i].trim();
+						translation[i - 1] = lineWords[i].trim().replace("\t", "");
 					}
-					wordList.add(lineWords[0].trim(), translation);
+					wordList.add(lineWords[0].trim().replace("\t", ""), translation);
 				} else {
 					System.err.println("unable to parse: " + line);
 
 				}
 			}
+			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 			return false;

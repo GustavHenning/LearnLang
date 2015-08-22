@@ -11,7 +11,6 @@ public class WordCompleted implements Command {
 
 	@Override
 	public void activate(CommandParser cp, String line) {
-		StringBuilder sb = new StringBuilder();
 		System.out.println("Correct: " + cp.wp.currentWord() + " < " + cp.wp.currentTranslation());
 		cp.wp.nextWord();
 	}
