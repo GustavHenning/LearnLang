@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import org.dyndns.tdfpro.commands.Command;
 import org.dyndns.tdfpro.commands.LangFile;
+import org.dyndns.tdfpro.commands.PartialWord;
 import org.dyndns.tdfpro.commands.Pass;
 import org.dyndns.tdfpro.commands.Tip;
 import org.dyndns.tdfpro.commands.WordCompleted;
@@ -18,7 +19,7 @@ public class CommandParser {
 
 	private InputStream in;
 	private Command[] commands = {
-			new LangFile(), new Tip(), new Pass(), new WordCompleted()
+			new LangFile(), new Tip(), new Pass(), new PartialWord(), new WordCompleted()
 	};
 
 	public CommandParser(InputStream in, Output out) {

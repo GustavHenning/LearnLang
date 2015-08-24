@@ -1,70 +1,70 @@
 der Termin - avtalad tid
 einen Termin vereinbaren - avtala en tid
-der	Ordner	- pärm
-die Klausur	- tentamen; skriftlig examination
-vereinbaren	- komma överens, avtala
-sich verabreden	- stämma träff
-die	Verabredung	- överenskommelse, träff, möte
+der Ordner - pärm
+die Klausur - tentamen; skriftlig examination
+vereinbaren - komma överens, avtala
+sich verabreden - stämma träff
+die Verabredung - överenskommelse, träff, möte
 getrennt, jede(r) für sich - var för sig
-das	Gericht/ Tagesgericht -	rätt/ dagens rätt
-die	Muschel	- mussla
-der	Braten, Lammbraten - stek, lammstek
-das	Labor - labb
+das Gericht/ Tagesgericht - rätt/ dagens rätt
+die Muschel - mussla
+der Braten, Lammbraten - stek, lammstek
+das Labor - labb
 die Einladung - en inbjudan
 einladen lud ein eingeladen - inbjuda
 verantwortlich - ansvarig
-der	Gegenstand +e - föremål
-der	Geschäftsführer	- VD
-die	Personenkennziffer - personnummer
+der Gegenstand +e - föremål
+der Geschäftsführer - VD
+die Personenkennziffer - personnummer
 spätestens - senast
 sich benehmen benahm benommen - uppföra sig, bete sig
-(aus)leihen  lieh aus  hat ausgeliehen - låna (ut)
-das	Gewürz - krydda
-das	Fitnessstudio - gym
-der	Kreisverkehr - rondell
+(aus)leihen lieh aus hat ausgeliehen - låna (ut)
+das Gewürz - krydda
+das Fitnessstudio - gym
+der Kreisverkehr - rondell
 gestreift - randig
 kariert - rutig
 an ... vorbei - förbi ...
 an der Kirche vorbei - förbi kyrkan
-an … entlang - längs med …
+an ... entlang - längs med ...
 umsteigen stieg um ist umgestiegen - byta (tåg, buss)
-die	Lebensgewohnheit - livsvana
-die	Mehrwertsteuer - moms
+die Lebensgewohnheit - livsvana
+die Mehrwertsteuer - moms
 11. August 2015
 eine Nachricht hinterlassen - lämna ett meddelande
 etwas ausrichten - meddela ngt
 sich melden - höra av sig
 zufällig - av en händelse/slump
-das	Gewicht - vikt
+das Gewicht - vikt
 da hinten/da vorne - därborta/därframme
 zu Abend essen - äta kvällsmål/middag
 zu Mittag essen - äta lunch
-die	Gegend - område, region
+die Gegend - område, region
 ins Fettnäpfchen treten - trampa i klaveret
 beziehungsweise - respektive
 12. August 2015
-die	Herausforderung	- utmaning
-der	Vorort - förort
-die	Gemeinde - kommun; församling
-der	Fahrstuhl +e - hiss
-die	Immobilie - fastighet
-die	Erläuterung	- förklaring, förklarande kommentar 
+die Herausforderung - utmaning
+der Vorort - förort
+die Gemeinde - kommun; församling
+der Fahrstuhl +e - hiss
+die Immobilie - fastighet
+die Erläuterung - förklaring, förklarande kommentar 
 sich etwas leisten können - Ha råd med något
-die	Gebühr - avgift
+die Gebühr - avgift
 17. August 2015
-die	Ausstattung - utrustning, utstyrsel
-die	Betriebswirtschaftslehre - företagsekonomi
-die	Volkswirtschaftslehre - nationalekonomi
-die	Mensa - studentmatsal
-der	Pilz - svamp
+die Ausstattung - utrustning, utstyrsel
+die Betriebswirtschaftslehre - företagsekonomi
+die Volkswirtschaftslehre - nationalekonomi
+die Mensa - studentmatsal
+der Pilz - svamp
 das Fürstentum - furstendöme
-die	Vereinbarung - överenskommelse
+die Vereinbarung - överenskommelse
 18. August 2015
 klauen - sno
 stehlen stahl gestohlen - stjäla
 ungültig sein/werden - gå ut
 Ihr Pass ist ungültig - Ert pass har gått ut.
-sich  verhalten - förhålla sig, uppföra sig
+sich verhalten - förhålla sig, uppföra sig
 der Krach - oväsen, bråk
 der Lärm - oljud, oväsen
 empfindlich - känslig
@@ -86,7 +86,7 @@ der Rechtsanwalt (Anwalt) +e - advokat
 fahrlässig - vårdslös
 die Gewerkschaft - fack
 der Vertrieb - försäljning, distribution
-die Bedingung  - villkor, förutsättning
+die Bedingung - villkor, förutsättning
 der Hobel, Käsehobel - hyvel
 aufräumen (vs putzen) - plocka undan (vs städa)
 sich einmischen - blanda sig i
@@ -95,3 +95,55 @@ die Stiftung -en stiftelse
 nachhaltig - hållbar
 der Zünder - tändare
 die Zündkerze - tändstift
+Extra ord
+die Münze - mynt
+das Bargeld - kontanter
+der Betrag +e - belopp
+der Geldautomat - bankomat
+Geld einzahlen - sätta in pengar
+Geld abheben - ta ut pengar
+Geld umtauschen/wechseln - växla pengar
+Geld überweisen - överföra pengar
+auszahlen - betala ut
+die Umtauschgebühr - växlingsavgift
+das Konto - konto
+ein Konto eröffnen - öppna ett konto
+ein Konto auflösen - avsluta ett konto
+die Angelegenheit - ärende, sak
+Geldangelegenheiten regeln - ordna pengaärenden
+die Lastschrift - debetnota
+der Dauerauftrag +e - överföring via autogiri
+per Lastschrift - via autogiro
+unterwegs - ute och reser, på väg
+sich erkundigen - fråga efter, ta reda på, höra sig för
+umsteigen - byta(färdmedel)
+der Anschluss +e - anslutning
+das Abteil - kupé
+verpassen - missa
+die Entfernung - avstånd
+etwas in Kauf nehmen - acceptera något
+sich beeilen - skynda sig
+der Zuschlag - tillägg
+der Speisewagen - restaurangvagn
+die Unterkunft +e - inkvartering, logi
+die Jugendherberge - vandrarhem
+der Hotelprospekt - hotellbroschyr
+das Anmeldeformular - anmälningsblankett
+der Ausweis - ID kort
+die Quittung - kvitto
+der Aufenhalt - vistelse
+sich eintragen - skriva in sig
+im fünften Stock - fem trappor upp
+die Tiefgarage - parkeringshus
+das Gebäude - byggnad
+das Gepäck, die Gepäckstycke - baggage
+die Nummerauskunft - nummerupplysning
+die Zentrale - växel
+die Durchwahl - direktnummer
+einschalten - sätta på
+ausschalten - stänga av
+ernst - allvarlig, seriös
+speichern - spara
+löschen - ta bort(data)
+die Querstrasse - tvärgata
+die Ampel - trafikljus

@@ -16,6 +16,7 @@ public class WordPractice {
 	private int currentWordIndex = -1;
 	private int currentTip = 0;
 	private boolean[] firstTry;
+	public boolean[] rightGuessesByChar;
 	ArrayList<Integer> nextWord = new ArrayList<Integer>();
 	private Output out;
 	Random rnd = new Random();
@@ -28,8 +29,7 @@ public class WordPractice {
 
 	public boolean init() {
 		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(
-					new FileInputStream(path)));
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path)));
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] lineWords = line.split("–");
@@ -64,7 +64,7 @@ public class WordPractice {
 		/* send first letter of each word */
 		char[] chars = wordToFind.toCharArray();
 		for (int i = 1; i < chars.length; i++) {
-			if (chars[i] != ' ' && chars[i - 1] != ' ') {
+			if (chars[i] != ' ' && chars[i - 1] != ' ' && !rightGuessesByChar[i]) {
 				chars[i] = '_';
 			}
 		}
@@ -72,11 +72,13 @@ public class WordPractice {
 		StringBuilder sb = new StringBuilder();
 		sb.append(tip.toString());
 		for (int i = 0; i < currentTip; i++) {
-			if (i >= wordToFind.length()-1) {
+			if (i >= wordToFind.length() - 1) {
 				break;
 			}
 			boolean replacing = true;
 			while (replacing) {
+				if(sb.toString().indexOf('_') == -1)
+					break;
 				int at = rnd.nextInt(wordToFind.length());
 				if (sb.toString().charAt(at) == '_') {
 					sb.setCharAt(at, wordToFind.charAt(at));
@@ -91,25 +93,26 @@ public class WordPractice {
 	}
 
 	public void nextWord() {
-		if(nextWord.size() == 0 || currentWord == nextWord.size()){
+		if (nextWord.size() == 0 || currentWord == nextWord.size()) {
 			nextWord = new ArrayList<Integer>();
-			while(nextWord.size() != wordList.words.size()){
+			while (nextWord.size() != wordList.words.size()) {
 				int rand = rnd.nextInt(wordList.words.size());
-				if(!nextWord.contains(rand)){
+				if (!nextWord.contains(rand)) {
 					nextWord.add(rand);
 				}
 			}
 		}
-		if(currentTip == 0 && currentWordIndex >= 0)
+		if (currentTip == 0 && currentWordIndex >= 0)
 			firstTry[currentWordIndex] = true;
 		currentWordIndex++;
-		while(firstTry[currentWordIndex]){
+		while (firstTry[currentWordIndex]) {
 			currentWordIndex++;
-			if(currentWordIndex >= wordList.words.size()){
+			if (currentWordIndex >= wordList.words.size()) {
 				currentWordIndex = 0;
 			}
 		}
 		currentWord = nextWord.get(currentWordIndex);
+		rightGuessesByChar = new boolean[wordList.get(currentWord).length()];
 		currentTip = 0;
 		StringBuilder sb = new StringBuilder();
 		for (String s : wordList.getTranslation(currentWord)) {
@@ -121,13 +124,24 @@ public class WordPractice {
 	public String currentWord() {
 		return wordList.get(currentWord);
 	}
-	
-	public String currentTranslation(){
+
+	public String currentTranslation() {
 		StringBuilder sb = new StringBuilder();
-		for(String s : wordList.words.get(wordList.get(currentWord))){
+		for (String s : wordList.words.get(wordList.get(currentWord))) {
 			sb.append(s + " ");
 		}
 		return sb.toString();
+	}
+
+	public void setPartials(String line) {
+		String hidWord = wordList.get(currentWord);
+		for(int i = 0; i < hidWord.length(); i++){
+			if(i < line.length()){
+				if(hidWord.charAt(i) == line.charAt(i)){
+					rightGuessesByChar[i] = true;
+				}				
+			}
+		}		
 	}
 
 }
